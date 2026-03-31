@@ -1,0 +1,16 @@
+[project]
+name = "pdf-qa"
+version = "0.1.0"
+description = "A RAG-based Q&A system for answering questions from PDF documents"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.55.0",
+    "openai>=2.29.0",
+    "pyyaml>=6.0.3",
+    "chromadb>=1.5.5",
+    "langchain>=1.2.12",
+    "langchain-openai>=1.1.11",
+    "langchain-community>=0.4.1",
+    "langchain-text-splitters>=1.1.1",
+    "pymupdf4llm>=1.27.2.1",
+]
